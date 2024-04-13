@@ -1,0 +1,38 @@
+------------------------------------------------------------------------------------------------------------------------
+------ Voici une liste du type de figure proposé par le logiciel : -----------------------------------------------------
+
+- Carré
+- Cercle
+- Ellipse
+- Ellipse animée
+- Hypotrochoïde *
+- Lemniscate de Bernoulli
+- Forme complexe **
+
+
+* Dont voici les paramètres pour trois figures différentes :
+
+- Etoile à 5 branches :
+
+    l = 5
+    R = 5
+    r = 3
+
+- Empreinte de gâteau / nuage :
+
+    l = 5
+    R = 2.7
+    r = 3
+
+- Carré aux côtés arrondis :
+
+    l = -0.3
+    R = 4
+    r = 1
+
+** Il faudra alors vous assurer que votre fichier SVG contenant votre figure se trouve bien dans le même répertoire
+que celui du logiciel. Ce dernier doit contenir un nombre raisonnable de noeuds (entre 800 et 2000,
+selon la complexité de la figure) pour obtenir un résultat correct tout en évitant des calculs trop longs.
+Le programme actuel ne traite que les objets vectoriels dont les noeuds sont reliés par des segments rectilignes.
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
